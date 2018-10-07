@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "chrome",
             "request": "launch",
@@ -13,3 +14,21 @@
         }
     ]
 }
+
+/* {
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Launch localhost from Firefox",
+            "type": "firefox",
+            "request": "launch",
+            "url": "http://localhost:4200",
+            "pathMappings": [{
+                "url": "http://localhost",
+                "path": "${workspaceFolder}"
+            }]
+        }
+    ]
+}
+ */
